@@ -1,0 +1,5 @@
+Build docker image:
+`docker build -t natural_earth_tile_generator .`
+
+Build natural earth tiles:
+`docker run -v ./out:/output_directory natural_earth_tile_generator`
